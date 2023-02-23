@@ -1,0 +1,142 @@
+
+.carousel-item{
+    height:100vh;
+    min-height: 300px;
+    background-color: no-repeat center center scroll;
+    background-size: cover ;
+}
+.carousel-item .carousel-caption{
+    bottom: 230px;
+}
+.carousel-caption h5{
+    font-size:45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+    font-family: merienda;
+    color: black;
+}
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    font-family: poppins;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    background-color:black ;
+    padding: 10px 30px;
+    display: inline-block;
+    color: white;
+    margin-top: 15px;
+}
+.navbar-nav a{
+    font-family: consolas;
+    font-size:15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar-light .navbar-brand{
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var( --black-color);
+}
+.navbar-nav{
+    text-align: center;
+}
+.nav-link{
+    padding: 2rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color:  var( --primary-color) !important;
+}
+.navbar-bg{
+    background-color: var( --white-color);
+    opacity: 0.9;
+    
+}
+.nav-icon{
+    font-size: 20px;
+}
+.w-100{
+    height: 100vh;
+}
+@media only screen and (max-width:767px){
+    .navbar-nav.ml-auto{
+        background-color: red;
+    }
+    .navbar-toggler {
+        padding:1px 5px;
+        font-size: 18px;
+        line-height: 0.3;
+        background-color: white;
+    }
+    
+}
+
+.product-top{
+    text-align: center;
+    margin: 50px 0px;
+    font-family: merienda;
+}
+.product a{
+    color: var(--black-color);
+}
+.product a:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.card img:hover{
+    transform: scale(0.9);
+   
+}
+.card-body .product-price{
+    color: var(--primary-color);
+    
+}
+.card-body .product-old-price{
+    position: relative;
+    opacity: 0.6;
+   text-decoration: line-through;
+   
+}
+.card .btn{
+    border: 1px solid #ccc;
+}
+.card .btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem var(--background-color);
+}
+footer{
+    
+    color: var(--black-color);
+    margin-top: 30px;
+
+}
+footer p{
+    padding: 20px 0;
+}
+.login{
+    background-color: var(--background-color);
+   height: 85vh;
+   
+   
+}
+.login h3, a {
+    color: var(--primary-color);
+}
+.login a:hover{
+    text-decoration: none;
+}
+.login .btn{
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
